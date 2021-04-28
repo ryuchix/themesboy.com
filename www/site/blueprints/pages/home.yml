@@ -1,0 +1,10 @@
+title: Home Page
+icon: 🏠
+options:
+  changeStatus: true
+  changeTemplate: true
+
+sections:
+  content:
+    type: fields
+    fields:

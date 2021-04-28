@@ -1,0 +1,8 @@
+title: Default page
+
+tabs:
+  content:
+    fields:
+      text:
+        type: blocks
+  seotab: seo

@@ -1,0 +1,160 @@
+//@include font-face('Roboto', roboto);
+//@include font-face('Roboto', roboto-700, bold, normal);
+
+body {
+	-webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+	font-display: swap;
+}
+
+.footer {
+	font-size: 0.9rem;
+}
+
+.btn-primary {
+	color: $white;
+}
+
+.icon-search {
+	width: 20px;
+	height: 20px;
+	fill: gray('600');
+}
+
+.tags {
+  display: flex;
+  align-items: center;
+  svg {
+    width: 14px;
+    height: 14px;
+    fill: gray('600');
+    margin-right: 0.4rem;
+  }
+  ul {
+    padding-left: 0;
+    margin-bottom: 0;
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  li {
+    line-height: 1;
+  }
+  a {
+    font-size: 0.9rem;
+  }
+}
+
+.breadcrumb {
+	&-item {
+		font-size: 0.85rem;
+	}
+}
+
+.input-group {
+  .form-control {
+    border-right: 0;
+		border-top-right-radius: $border-radius;
+  }
+	&-prepend {
+		margin-left: -1px;
+		margin-right: 0;
+		border-top-right-radius: $border-radius;
+		border-bottom-right-radius: $border-radius;
+	 >.input-group-text {
+			border-radius: 0 $border-radius $border-radius 0 !important;
+			background-color: $white;
+			border-left: 0;
+		}
+	}
+}
+
+#carbonads {
+  display: block;
+  overflow: hidden;
+  font-family: Verdana, "Helvetica Neue", Helvetica, sans-serif;
+  line-height: 1.5;
+	background-color: $gray-100;
+}
+
+#carbonads span {
+  position: relative;
+  display: block;
+  overflow: hidden;
+	display: flex;
+}
+
+.carbon-img {
+  float: left;
+  margin-right: 1em;
+}
+
+.carbon-img img {
+  display: block;
+  line-height: 1;
+}
+
+.carbon-text {
+  display: block;
+  float: left;
+  max-width: calc(100% - 130px - 1em);
+  text-align: left;
+	font-size: 13px;
+}
+
+.carbon-poweredby {
+  position: absolute;
+  right: 0; // You can also set the position to the "left" with the value of calc(130px + carbon-text’s font size). If the font-size is 12px, you’ll want to set the left value as 142px. It’ll align the .carbon-text with .carbon-poweredby
+  bottom: 0;
+  display: block;
+  font-size: .7em;
+  line-height: 1;
+  letter-spacing: 1px;
+}
+
+.sidebarLeft_categories {
+  li.active {
+    a {
+      color: $pink;
+      text-decoration: underline;
+    }
+  }
+}
+
+.logo-text {
+  font-size: 1.4rem;
+}
+
+.main-geader {
+  @media only screen and (max-width: 768px) {
+    display: none !important;
+  }
+}
+
+.buerger-menu {
+  display: none !important;
+  @media only screen and (max-width: 768px) {
+    display: block !important;
+    position: absolute;
+    right: 10px;
+  }
+  button {
+    background-color: transparent;
+    border: 0px;
+    color: #fff;
+  }
+}
+
+.main-sidebar {
+  @media only screen and (max-width: 768px) {
+    display: none !important;
+  }
+}
+
+#sidebar {
+  .main-sidebar {
+    @media only screen and (max-width: 768px) {
+      display: block !important;
+    }
+  }
+}

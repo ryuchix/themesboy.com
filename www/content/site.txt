@@ -1,0 +1,184 @@
+Title: xdResources
+
+----
+
+Analytics: 
+
+----
+
+Toggle: false
+
+----
+
+Logo:
+
+- logo-xdresources.svg
+
+----
+
+Logo-text: Hello xD
+
+----
+
+Categories:
+
+- 
+  name: Premium resources
+  description: 'Find a single **element** by an attribute and its value'
+- 
+  name: Free resources
+  description: ""
+- 
+  name: Plugins
+  description: ""
+- 
+  name: Tutorials
+  description: ""
+
+----
+
+Xmlsitemap: true
+
+----
+
+Ad-code:
+
+<script async="" type="text/javascript" src="//cdn.carbonads.com/carbon.js?serve=CK7D5KQJ&amp;placement=wwwxdresourcesco" id="_carbonads_js"></script><div id="carbonads">
+<span>
+<span class="carbon-wrap">
+<a href="https://srv.carbonads.net/ads/click/x/GTND42JJFTSD42JICKALYKQNC6AD52JYCESD4Z3JCYYIE27WCTSDVK3KCKBI5KQYCW7I5K7ECT7DE23MCEBDEK3KC6SD453NCK7DTK3EHJNCLSIZ?segment=placement:wwwxdresourcesco;" class="carbon-img" target="_blank" rel="noopener sponsored">
+<img src="https://cdn4.buysellads.net/uu/1/3386/1525189943-38523.png" alt="ads via Carbon" border="0" height="100" width="130" style="max-width: 130px;"></a>
+</span>
+</div>
+
+----
+
+Meta-title: 
+
+----
+
+Meta-description: A short description of the site/page that will be displayed underneath the page title by search engines.
+
+----
+
+Meta-keywords: 
+
+----
+
+Meta-canonical-url: 
+
+----
+
+Meta-author: 
+
+----
+
+Meta-image: 
+
+----
+
+Meta-phone-number: 
+
+----
+
+Og-title: 
+
+----
+
+Og-description: 
+
+----
+
+Og-image: 
+
+----
+
+Og-site-name: 
+
+----
+
+Og-url: 
+
+----
+
+Og-audio: 
+
+----
+
+Og-video: 
+
+----
+
+Og-determiner: 
+
+----
+
+Og-type: 
+
+----
+
+Og-type-article-published-time: 
+
+----
+
+Og-type-article-modified-time: 
+
+----
+
+Og-type-article-expiration-time: 
+
+----
+
+Og-type-article-author: 
+
+----
+
+Og-type-article-section: 
+
+----
+
+Og-type-article-tag: 
+
+----
+
+Twitter-title: 
+
+----
+
+Twitter-description: 
+
+----
+
+Twitter-image: 
+
+----
+
+Twitter-card-type: 
+
+----
+
+Twitter-site: 
+
+----
+
+Twitter-creator: 
+
+----
+
+Robots-noindex: 
+
+----
+
+Robots-nofollow: 
+
+----
+
+Robots-noarchive: 
+
+----
+
+Robots-noimageindex: 
+
+----
+
+Robots-nosnippet: 

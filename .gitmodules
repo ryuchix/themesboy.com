@@ -1,0 +1,6 @@
+[submodule "www/site/plugins/kirby-meta-knight"]
+	path = www/site/plugins/kirby-meta-knight
+	url = https://github.com/diesdasdigital/kirby-meta-knight.git
+[submodule "www/site/plugins/kirby3-xmlsitemap"]
+	path = www/site/plugins/kirby3-xmlsitemap
+	url = https://github.com/omz13/kirby3-xmlsitemap.git

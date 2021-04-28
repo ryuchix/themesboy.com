@@ -1,0 +1,55 @@
+.article {
+  &_meta {
+    display: flex;
+    align-items: center;
+    &-item {
+    	display: flex;
+    	// align-items: center;
+    	svg {
+            flex-shrink: 0;
+    		width: 16px;
+    		height: 16px;
+    		fill: gray('600');
+    		margin-right: 0.4rem;
+            margin-top: 5px;
+    	}
+    	a {
+        font-size: 0.9rem;
+    		line-height: 1;
+    	}
+    	i {
+        font-size: 0.9rem;
+    		line-height: 1;
+    	}
+    }
+  }
+  .category, .tags {
+	a {
+		font-size: 0.9rem;
+		line-height: 1;
+	}
+	i {
+		font-size: 0.9rem;
+		line-height: 1;
+	}
+	div {
+		margin-top: -5px;
+	}
+  }
+}
+.tags {
+	a {
+		font-size: 0.9rem;
+		line-height: 1;
+	}
+	i {
+		font-size: 0.9rem;
+		line-height: 1;
+	}
+	div {
+		margin-top: -5px;
+	}
+}
+.article-image {
+	width: 100%;
+}

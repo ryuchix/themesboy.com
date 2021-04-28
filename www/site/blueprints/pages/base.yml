@@ -1,0 +1,9 @@
+title: Base Page
+icon: 🏠
+
+tabs:
+  content:
+    fields:
+      text: 
+        type: textarea
+  seotab: seo

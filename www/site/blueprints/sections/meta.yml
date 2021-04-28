@@ -1,0 +1,15 @@
+type: group
+fields:
+  site_image:
+    label: Image
+    type: files
+    max: 1
+  description:
+    label: Description
+    type: textarea
+    size: small
+    buttons: false
+    maxlength: 158
+  keywords:
+    label: Keywords
+    type: tags
